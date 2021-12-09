@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 import Blog1 from "../images/blog1.jpg"
 import Blog2 from "../images/blog2.jpg"
@@ -11,8 +10,6 @@ import Blog6 from "../images/blog6.jpg"
 export default function Projects() {
     return (
         <div>
-
-            <Navbar />
             <section class="blogs">
 
                 <h1 class="heading"> <span>my</span> projects </h1>

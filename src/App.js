@@ -9,10 +9,12 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 import Home from './components/Home'
+import Navbar from './components/Navbar'
 
 export default function App() {
     return (
         <div>
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

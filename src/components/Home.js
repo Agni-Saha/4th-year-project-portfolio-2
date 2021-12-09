@@ -1,13 +1,9 @@
 import React from 'react'
 import User from "../images/profile.jpg"
-import Navbar from './Navbar'
 
 export default function Home() {
     return (
         <div>
-
-            <Navbar />
-
             <section className="home">
 
                 <div className="image">

@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 export default function Contact() {
     return (
         <div>
-            <Navbar />
             <section class="contact">
                 <h1 class="heading"> contact <span>me</span> </h1>
                 <div class="row">

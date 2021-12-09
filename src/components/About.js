@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 import icon1 from "../images/icon-1.png"
 import icon2 from "../images/icon-2.png"
@@ -11,7 +10,6 @@ import icon6 from "../images/icon-6.png"
 export default function About() {
     return (
         <div>
-            <Navbar />
 
             <section className="about">
                 <h1 className="heading"> about <span>me</span> </h1>
