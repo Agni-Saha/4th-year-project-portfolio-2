@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import icon1 from "../images/icon-1.png"
 import icon2 from "../images/icon-2.png"
@@ -8,9 +8,12 @@ import icon5 from "../images/icon-5.png"
 import icon6 from "../images/icon-6.png"
 
 export default function About() {
+    useEffect(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <div>
-
             <section className="about">
                 <h1 className="heading"> about <span>me</span> </h1>
                 <div className="row">
@@ -18,9 +21,11 @@ export default function About() {
                         <h1>personal info</h1>
                         <div className="box-container">
                             <div className="box">
-                                <h3> <span>name : </span> sana shaikh </h3>
+                                <h3> <span>name : </span> Agni Saha </h3>
                                 <h3> <span>age : </span> 22 </h3>
-                                <h3> <span>email : </span> sanashaikh@gmail.com </h3>
+                                <h3 style={{ textTransform: "lowercase" }}>
+                                    <span>email : </span> agni.ju.1065@gmail.com
+                                </h3>
                                 <h3> <span>address : </span> mumbai, india - 400104 </h3>
                             </div>
 

@@ -115,7 +115,7 @@ section {
 
 .navbar a:hover {
     background: crimson;
-    padding-bottom: 6rem;
+    padding-bottom: 4.75rem;
 }
 
 .navbar a:hover i {
@@ -225,7 +225,7 @@ section {
 
 .about .row .info-container .box-container .box h3 span {
     color: #aaa;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .about .row .count-container {

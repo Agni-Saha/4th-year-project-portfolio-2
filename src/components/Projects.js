@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Blog1 from "../images/blog1.jpg"
 import Blog2 from "../images/blog2.jpg"
@@ -8,14 +8,15 @@ import Blog5 from "../images/blog5.jpg"
 import Blog6 from "../images/blog6.jpg"
 
 export default function Projects() {
+    useEffect(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <div>
             <section class="blogs">
-
                 <h1 class="heading"> <span>my</span> projects </h1>
-
                 <div class="box-container">
-
                     <div class="box">
                         <div class="image">
                             <img src={Blog1} alt="" />

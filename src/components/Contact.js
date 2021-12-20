@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function Contact() {
+    useEffect(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <div>
             <section class="contact">
@@ -14,7 +18,7 @@ export default function Contact() {
                                 <i class="fas fa-map"></i>
                                 <div class="info">
                                     <h3>address :</h3>
-                                    <p>mumbai, india - 400104</p>
+                                    <p>Kolkata, India - 700097</p>
                                 </div>
                             </div>
 
@@ -22,7 +26,9 @@ export default function Contact() {
                                 <i class="fas fa-envelope"></i>
                                 <div class="info">
                                     <h3>email :</h3>
-                                    <p>sanashaikh@gmail.com</p>
+                                    <p style={{ textTransform: "lowercase" }}>
+                                        agni.ju.1065@gmail.com
+                                    </p>
                                 </div>
                             </div>
 
